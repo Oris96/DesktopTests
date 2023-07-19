@@ -1,0 +1,786 @@
+{
+	"id": "9691895c-00b7-407b-8d8e-567aa40c709b",
+	"name": "notepad",
+	"nodes": [],
+	"locators": [
+		{
+			"id": "01c3fd33-a856-4da3-a018-15ce1260d7a0",
+			"name": "edit_window",
+			"filePath": "5e116efe-2d12-4701-ae58-e05c7fbfa531.jpg",
+			"content": {
+				"automationType": "IA",
+				"processName": {
+					"value": "Notepad"
+				},
+				"filePath": {
+					"value": "Notepad.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"accessKey": {
+								"excluded": true
+							},
+							"tag": {
+								"value": "",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "Notepad"
+							},
+							"controlMetaType": "IA",
+							"name": {
+								"value": "Untitled - Notepad"
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"accessKey": {
+										"excluded": true
+									},
+									"tag": {
+										"value": "",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "False",
+										"excluded": true
+									},
+									"className": {
+										"value": "NotepadTextBox"
+									},
+									"controlMetaType": "IA",
+									"name": {
+										"excluded": true
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"accessKey": {
+												"excluded": true
+											},
+											"tag": {
+												"value": "",
+												"excluded": true
+											},
+											"role": {
+												"value": "window"
+											},
+											"isDirectChild": {
+												"value": "False",
+												"excluded": true
+											},
+											"className": {
+												"value": "RichEditD2DPT"
+											},
+											"controlMetaType": "IA",
+											"name": {
+												"excluded": true
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"accessKey": {
+														"excluded": true
+													},
+													"tag": {
+														"value": "",
+														"excluded": true
+													},
+													"role": {
+														"value": "edit"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"controlMetaType": "IA",
+													"name": {
+														"excluded": true
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "c6fbe71d-e11a-409e-a8f2-c839b1c85adc",
+			"name": "file_tab",
+			"filePath": "49613e2e-7cac-4ee1-b4ba-c49c30d3f6ba.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "Notepad"
+				},
+				"filePath": {
+					"value": "Notepad.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "",
+								"excluded": true
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "Notepad"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "*Hello, David - Notepad"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "pane"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Windows.UI.Input.InputSite.WindowClass"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "",
+										"excluded": true
+									},
+									"index": {
+										"value": "2"
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "MenuBar"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "menuBar"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "",
+												"excluded": true
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "",
+														"excluded": true
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "menuItem"
+													},
+													"accessKey": {
+														"value": "Alt, F"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "Microsoft.UI.Xaml.Controls.MenuBarItem"
+													},
+													"controlMetaType": "Uia",
+													"name": {
+														"value": "File"
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "3908e692-6a8a-429b-9ad0-640201ce00b0",
+			"name": "edit_file_name",
+			"filePath": "43f9dda4-6c57-4f9a-9d33-0f04ca9d5788.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "Notepad"
+				},
+				"filePath": {
+					"value": "Notepad.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "",
+								"excluded": true
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "Notepad"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "*Hello, David - Notepad"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "#32770"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "Save as"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "",
+												"excluded": true
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "pane"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "DUIViewWndClassName"
+											},
+											"controlMetaType": "Uia",
+											"name": {
+												"value": "",
+												"excluded": true
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "FileNameControlHost"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"acceleratorKey": {
+														"value": "Alt+n"
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "comboBox"
+													},
+													"accessKey": {
+														"value": "Alt+n"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "AppControlHost"
+													},
+													"controlMetaType": "Uia",
+													"name": {
+														"value": "File name:",
+														"excluded": true
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "1001"
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "edit"
+															},
+															"accessKey": {
+																"value": "Alt+n"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "Edit"
+															},
+															"controlMetaType": "Uia",
+															"name": {
+																"value": "File name:",
+																"excluded": true
+															},
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "28f9c883-fb51-4d0e-8e59-0935198b243c",
+			"name": "button_save",
+			"filePath": "eb38c067-cb80-4eb1-b81c-88e7b0d744f2.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "Notepad"
+				},
+				"filePath": {
+					"value": "Notepad.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "",
+								"excluded": true
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "Notepad"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "*Hello, David - Notepad"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "#32770"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "Save as"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "1"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "button"
+											},
+											"accessKey": {
+												"value": "Alt+s"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "Button"
+											},
+											"controlMetaType": "Uia",
+											"name": {
+												"value": "Save",
+												"excluded": true
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "6fb12a90-05f1-4680-91cb-5668651ad93b",
+			"name": "confirm_save_as_button_yes",
+			"filePath": "52277159-de20-42f1-a9fb-fa1f87219a5d.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "Notepad"
+				},
+				"filePath": {
+					"value": "Notepad.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "",
+								"excluded": true
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "Notepad"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "*Hello, David - Notepad"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "#32770"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "Save as"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "",
+												"excluded": true
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "window"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "#32770"
+											},
+											"controlMetaType": "Uia",
+											"name": {
+												"value": "Confirm Save As"
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "CommandButton_6"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"acceleratorKey": {
+														"value": "Alt+Y"
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "button"
+													},
+													"accessKey": {
+														"value": "Alt+Y"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "CCPushButton"
+													},
+													"controlMetaType": "Uia",
+													"name": {
+														"value": "Yes",
+														"excluded": true
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}
