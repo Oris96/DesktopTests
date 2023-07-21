@@ -1496,7 +1496,8 @@
 																																"excluded": true
 																															},
 																															"helpText": {
-																																"value": "Merge Cells\nMerge the selected cells into one cell."
+																																"value": "Merge Cells\nMerge the selected cells into one cell.",
+																																"excluded": true
 																															},
 																															"orientation": {
 																																"value": "None",
@@ -1506,10 +1507,12 @@
 																																"value": "button"
 																															},
 																															"isDirectChild": {
-																																"value": "True"
+																																"value": "True",
+																																"excluded": true
 																															},
 																															"className": {
-																																"value": "NetUIRibbonButton"
+																																"value": "NetUIRibbonButton",
+																																"excluded": true
 																															},
 																															"controlMetaType": "Uia",
 																															"name": {
@@ -1519,29 +1522,46 @@
 																																"value": "1",
 																																"excluded": true
 																															}
-																														}
+																														},
+																														"childControls": [],
+																														"excluded": false
 																													}
-																												]
+																												],
+																												"excluded": false
 																											}
-																										]
+																										],
+																										"excluded": false
 																									}
-																								]
+																								],
+																								"excluded": false
 																							}
-																						]
+																						],
+																						"excluded": false
 																					}
-																				]
+																				],
+																				"excluded": false
 																			}
-																		]
+																		],
+																		"excluded": false
 																	}
-																]
+																],
+																"excluded": false
 															}
-														]
+														],
+														"excluded": false
 													}
-												]
+												],
+												"excluded": false
 											}
-										]
+										],
+										"excluded": false
 									}
-								]
+								],
+								"parameters": {
+									"excluded": true,
+									"operator": "equals",
+									"value": ""
+								}
 							}
 						}
 					]
