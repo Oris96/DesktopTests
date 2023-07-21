@@ -3693,7 +3693,8 @@
 												"excluded": true
 											},
 											"role": {
-												"value": "window"
+												"value": "window",
+												"excluded": true
 											},
 											"isDirectChild": {
 												"value": "True"
@@ -3703,7 +3704,8 @@
 											},
 											"controlMetaType": "Uia",
 											"name": {
-												"value": "Document1 - Word"
+												"value": "Document1 - Word",
+												"excluded": false
 											},
 											"index": {
 												"value": "1",
@@ -3726,7 +3728,8 @@
 														"excluded": true
 													},
 													"role": {
-														"value": "pane"
+														"value": "pane",
+														"excluded": true
 													},
 													"isDirectChild": {
 														"value": "True"
@@ -3755,14 +3758,16 @@
 																"excluded": true
 															},
 															"helpText": {
-																"value": "Ribbon toolbar"
+																"value": "Ribbon toolbar",
+																"excluded": true
 															},
 															"orientation": {
 																"value": "None",
 																"excluded": true
 															},
 															"role": {
-																"value": "toolBar"
+																"value": "toolBar",
+																"excluded": true
 															},
 															"isDirectChild": {
 																"value": "True"
@@ -3796,7 +3801,8 @@
 																		"excluded": true
 																	},
 																	"role": {
-																		"value": "pane"
+																		"value": "pane",
+																		"excluded": true
 																	},
 																	"isDirectChild": {
 																		"value": "True"
@@ -3829,7 +3835,8 @@
 																				"excluded": true
 																			},
 																			"role": {
-																				"value": "pane"
+																				"value": "pane",
+																				"excluded": true
 																			},
 																			"isDirectChild": {
 																				"value": "True"
@@ -3863,7 +3870,8 @@
 																						"excluded": true
 																					},
 																					"role": {
-																						"value": "pane"
+																						"value": "pane",
+																						"excluded": true
 																					},
 																					"isDirectChild": {
 																						"value": "True"
@@ -3897,7 +3905,8 @@
 																								"excluded": true
 																							},
 																							"role": {
-																								"value": "pane"
+																								"value": "pane",
+																								"excluded": true
 																							},
 																							"isDirectChild": {
 																								"value": "True"
@@ -3930,7 +3939,8 @@
 																										"excluded": true
 																									},
 																									"role": {
-																										"value": "pane"
+																										"value": "pane",
+																										"excluded": true
 																									},
 																									"isDirectChild": {
 																										"value": "True"
@@ -3963,10 +3973,12 @@
 																												"excluded": true
 																											},
 																											"role": {
-																												"value": "group"
+																												"value": "group",
+																												"excluded": true
 																											},
 																											"accessKey": {
-																												"value": "Alt, H"
+																												"value": "Alt, H",
+																												"excluded": true
 																											},
 																											"isDirectChild": {
 																												"value": "True"
@@ -3999,10 +4011,12 @@
 																														"excluded": true
 																													},
 																													"role": {
-																														"value": "group"
+																														"value": "group",
+																														"excluded": true
 																													},
 																													"accessKey": {
-																														"value": "Alt, H, Z N"
+																														"value": "Alt, H, Z N",
+																														"excluded": true
 																													},
 																													"isDirectChild": {
 																														"value": "True"
@@ -4031,16 +4045,20 @@
 																																"excluded": true
 																															},
 																															"helpText": {
-																																"value": "Select text or objects in your document.\n\nThis is particularly helpful for selecting text with certain formatting or objects that are behind text."
+																																"value": "Select text or objects in your document.\n\nThis is particularly helpful for selecting text with certain formatting or objects that are behind text.",
+																																"excluded": true
 																															},
 																															"orientation": {
-																																"value": "Horizontal"
+																																"value": "Horizontal",
+																																"excluded": true
 																															},
 																															"role": {
-																																"value": "menuItem"
+																																"value": "menuItem",
+																																"excluded": true
 																															},
 																															"accessKey": {
-																																"value": "Alt, H, S L"
+																																"value": "Alt, H, S L",
+																																"excluded": true
 																															},
 																															"isDirectChild": {
 																																"value": "True"
@@ -4073,7 +4091,8 @@
 																																		"excluded": true
 																																	},
 																																	"role": {
-																																		"value": "menu"
+																																		"value": "menu",
+																																		"excluded": true
 																																	},
 																																	"isDirectChild": {
 																																		"value": "True"
@@ -4106,7 +4125,8 @@
 																																				"excluded": true
 																																			},
 																																			"role": {
-																																				"value": "pane"
+																																				"value": "pane",
+																																				"excluded": true
 																																			},
 																																			"isDirectChild": {
 																																				"value": "True"
@@ -4140,13 +4160,15 @@
 																																						"excluded": true
 																																					},
 																																					"role": {
-																																						"value": "group"
+																																						"value": "group",
+																																						"excluded": true
 																																					},
 																																					"isDirectChild": {
 																																						"value": "True"
 																																					},
 																																					"className": {
-																																						"value": "NetUITWMenuItemGroup"
+																																						"value": "NetUITWMenuItemGroup",
+																																						"excluded": false
 																																					},
 																																					"controlMetaType": "Uia",
 																																					"name": {
@@ -4170,7 +4192,8 @@
 																																								"excluded": true
 																																							},
 																																							"acceleratorKey": {
-																																								"value": "Ctrl+A"
+																																								"value": "Ctrl+A",
+																																								"excluded": true
 																																							},
 																																							"helpText": {
 																																								"value": "Select All (Ctrl+A)\nSelect all text and objects.",
@@ -4181,16 +4204,20 @@
 																																								"excluded": true
 																																							},
 																																							"role": {
-																																								"value": "menuItem"
+																																								"value": "menuItem",
+																																								"excluded": true
 																																							},
 																																							"accessKey": {
-																																								"value": "Alt, H, S L, A"
+																																								"value": "Alt, H, S L, A",
+																																								"excluded": true
 																																							},
 																																							"isDirectChild": {
-																																								"value": "True"
+																																								"value": "True",
+																																								"excluded": true
 																																							},
 																																							"className": {
-																																								"value": "NetUITWBtnMenuItem"
+																																								"value": "NetUITWBtnMenuItem",
+																																								"excluded": true
 																																							},
 																																							"controlMetaType": "Uia",
 																																							"name": {
