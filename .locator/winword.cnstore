@@ -4217,7 +4217,7 @@
 																																							},
 																																							"className": {
 																																								"value": "NetUITWBtnMenuItem",
-																																								"excluded": true
+																																								"excluded": false
 																																							},
 																																							"controlMetaType": "Uia",
 																																							"name": {

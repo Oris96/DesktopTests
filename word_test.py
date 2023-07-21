@@ -89,8 +89,7 @@ def test_create_table_and_edit_style(open_close_ms_word):
 
 # Edit style
     ui(locator.winword.control_panel.home).click()
-    ui(locator.winword.control_panel.Home.select).click()
-    ui(locator.winword.control_panel.Home.select_all).click()
+    ui(locator.winword.body.edit_body).send_hotkey("^(A)", "click")
     ui(locator.winword.control_panel.Home.button_bold).click()
     ui(locator.winword.control_panel.Home.button_center).click()
     ui(locator.winword.control_panel.Home.button_italic).click()
