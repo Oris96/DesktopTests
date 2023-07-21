@@ -4173,7 +4173,8 @@
 																																								"value": "Ctrl+A"
 																																							},
 																																							"helpText": {
-																																								"value": "Select All (Ctrl+A)\nSelect all text and objects."
+																																								"value": "Select All (Ctrl+A)\nSelect all text and objects.",
+																																								"excluded": true
 																																							},
 																																							"orientation": {
 																																								"value": "None",
@@ -4199,37 +4200,58 @@
 																																								"value": "1",
 																																								"excluded": true
 																																							}
-																																						}
+																																						},
+																																						"childControls": [],
+																																						"excluded": false
 																																					}
-																																				]
+																																				],
+																																				"excluded": false
 																																			}
-																																		]
+																																		],
+																																		"excluded": false
 																																	}
-																																]
+																																],
+																																"excluded": false
 																															}
-																														]
+																														],
+																														"excluded": false
 																													}
-																												]
+																												],
+																												"excluded": false
 																											}
-																										]
+																										],
+																										"excluded": false
 																									}
-																								]
+																								],
+																								"excluded": false
 																							}
-																						]
+																						],
+																						"excluded": false
 																					}
-																				]
+																				],
+																				"excluded": false
 																			}
-																		]
+																		],
+																		"excluded": false
 																	}
-																]
+																],
+																"excluded": false
 															}
-														]
+														],
+														"excluded": false
 													}
-												]
+												],
+												"excluded": false
 											}
-										]
+										],
+										"excluded": false
 									}
-								]
+								],
+								"parameters": {
+									"excluded": true,
+									"operator": "equals",
+									"value": ""
+								}
 							}
 						}
 					]
