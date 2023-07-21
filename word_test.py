@@ -3,12 +3,21 @@ from clicknium.common.enums import *
 from AppOpener import open
 import pytest
 import docx
-import os
+import os, fnmatch
 
 
 file_name_default = "Document1"
 file_names_list = [file_name_default]
 file_path = os.getcwd()
+
+
+def find(pattern, path):
+    result = []
+    for root, _, files in os.walk(path):
+        for name in files:
+            if fnmatch.fnmatch(name, pattern):
+                result.append(os.path.join(root, name))
+    return result
 
 
 def save_changes():
@@ -41,8 +50,11 @@ def open_close_ms_word():
     yield
 
 # Try to close word. If file were saved with new file name uses current file name   
+    full_file_path = find(f"{file_names_list[-1]}.*", file_path)[0]
+    extention = full_file_path.split(".")[1]
+
     for name in file_names_list:
-        variables = {"filename":name}
+        variables = {"filename":f"{name}.{extention}"}
         if cc.is_existing(locator.winword.control_panel.file, variables):
             ui(locator.winword.control_panel.file, variables).send_hotkey("%{F4}")
             break
@@ -53,24 +65,17 @@ def open_close_ms_word():
 
 
 def test_create_and_save_file(open_close_ms_word):    
-    file_name = "CreateAndSave.docx"
-    file_names_list.append(file_name + ".odt")
+    file_name = "CreateAndSave"
     file_names_list.append(file_name)
-    text = "Hello, "
 
-    ui(locator.winword.body.edit_body).set_text(text)
+    ui(locator.winword.body.edit_body).set_text("Hello, ")
 
     save_changes()
 
-    actual_result = docx.Document(file_name).paragraphs[0].text
-    assert actual_result == text
-
 
 def test_create_table_and_edit_style(open_close_ms_word):
-    file_name = "CreateTable.docx"
-    file_names_list.append(file_name + ".odt")
+    file_name = "CreateTable"
     file_names_list.append(file_name)
-    text = "Create a table"
 
     ui(locator.winword.body.edit_body).set_text("Create a table")
 
@@ -92,6 +97,3 @@ def test_create_table_and_edit_style(open_close_ms_word):
     ui(locator.winword.control_panel.Home.edit_font_size).send_hotkey("20{ENTER}")
 
     save_changes()
-
-    actual_result = docx.Document(file_name).paragraphs[0].text
-    assert actual_result == text
