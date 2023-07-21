@@ -32,8 +32,11 @@ def open_close_ms_word():
 # Check if word opened without blank document then create it
     if cc.is_existing(locator.winword.button_create_new_document):
         ui(locator.winword.button_create_new_document).click()
-        if cc.is_existing(locator.winword.new_blank_document):
-            ui(locator.winword.new_blank_document).double_click()
+        for role in ["pane", "group"]:
+            variables = {"role":role}
+            if cc.is_existing(locator.winword.new_blank_document, variables):
+                ui(locator.winword.new_blank_document, variables).double_click()
+                break
 
     yield
 

@@ -6556,7 +6556,7 @@
 																		"excluded": true
 																	},
 																	"role": {
-																		"value": "pane"
+																		"value": "{{role}}"
 																	},
 																	"isDirectChild": {
 																		"value": "True"
@@ -6678,25 +6678,40 @@
 																								"value": "1",
 																								"excluded": true
 																							}
-																						}
+																						},
+																						"childControls": [],
+																						"excluded": false
 																					}
-																				]
+																				],
+																				"excluded": false
 																			}
-																		]
+																		],
+																		"excluded": false
 																	}
-																]
+																],
+																"excluded": false
 															}
-														]
+														],
+														"excluded": false
 													}
-												]
+												],
+												"excluded": false
 											}
-										]
+										],
+										"excluded": false
 									}
-								]
+								],
+								"excluded": false
 							}
-						]
+						],
+						"excluded": false
 					}
-				]
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
 			}
 		},
 		{
