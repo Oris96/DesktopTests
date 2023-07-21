@@ -54,6 +54,7 @@ def open_close_ms_word():
 
 def test_create_and_save_file(open_close_ms_word):    
     file_name = "CreateAndSave.docx"
+    file_names_list.append(file_name + ".odt")
     file_names_list.append(file_name)
     text = "Hello, "
 
@@ -67,6 +68,7 @@ def test_create_and_save_file(open_close_ms_word):
 
 def test_create_table_and_edit_style(open_close_ms_word):
     file_name = "CreateTable.docx"
+    file_names_list.append(file_name + ".odt")
     file_names_list.append(file_name)
     text = "Create a table"
 
